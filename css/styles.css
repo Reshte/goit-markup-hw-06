@@ -920,7 +920,8 @@ p {
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 30px;
-  padding-left: 1.2em;
+  padding-left: 9px;
+  position: relative;
 }
 
 .agreemen-link {
@@ -957,8 +958,12 @@ p {
 
 .agreement-box {
   position: absolute;
-  width: 1em;
-  height: 1em;
-  padding-left: -1.2em;
-  
+  width: 16px;
+  height: 15px;
+  display: block;
+  top: 4px;
+  left: -19px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  color: transparent;
 }

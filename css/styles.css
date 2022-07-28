@@ -920,9 +920,10 @@ p {
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 30px;
+  padding-left: 1.2em;
 }
 
-.treaty-link {
+.agreemen-link {
   color: var(--accent-text-color);
   text-decoration: underline;
 }
@@ -947,6 +948,17 @@ p {
   border-color: transparent;
 }
 
-.form-input:focus {
-  border-color: red;
+.agreement-input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: absolute;
+}
+
+.agreement-box {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  padding-left: -1.2em;
+  
 }

@@ -338,10 +338,19 @@
                 d="M26.548 3.112v21.777h-23.229v-21.777h23.229zM26.548 0h-23.229c-1.826 0-3.319 1.4-3.319 3.112v21.777c0 1.712 1.493 3.112 3.319 3.112h23.229c1.826 0 3.319-1.4 3.319-3.112v-21.777c0-1.712-1.493-3.112-3.319-3.112z">
             </path>
         </symbol>
-        <symbol id="icon-check-on" viewBox="0 0 28 28">
-            <path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff"
-                stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4308"
-                d="M4.215 13.466l-0.149-0.142-0.149 0.14-2.076 1.969 0.164 0.157 7.678 7.323 0.149-0.142 16.326-15.574-0.164-0.155-2.048-1.954-0.149 0.142-14.114 13.453-5.469-5.217z">
+        <symbol id="icon-uncheck" viewBox="0 0 28 32">
+            <path
+                d="M0 6c0-2.209 1.791-4 4-4h20c2.206 0 4 1.791 4 4v20c0 2.206-1.794 4-4 4h-20c-2.209 0-4-1.794-4-4v-20zM3 6v20c0 0.55 0.447 1 1 1h20c0.55 0 1-0.45 1-1v-20c0-0.553-0.45-1-1-1h-20c-0.553 0-1 0.447-1 1z">
+            </path>
+        </symbol>
+
+        <symbol id="icon-check" viewBox="0 0 34 32">
+            <path fill="#2196f3" style="fill: var(--color1, #2196f3)"
+                d="M4.267 0h25.6c2.356 0 4.267 1.91 4.267 4.267v23.467c0 2.356-1.91 4.267-4.267 4.267h-25.6c-2.356 0-4.267-1.91-4.267-4.267v-23.467c0-2.356 1.91-4.267 4.267-4.267z">
+            </path>
+            <path fill="#fff" style="fill: var(--color2, #fff); stroke: var(--color2, #fff)" stroke="#fff"
+                stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4267"
+                d="M8.442 16.537l-0.147-0.14-2.205 2.088 7.767 7.41 16.318-15.567-2.19-2.089-14.128 13.465-5.416-5.167z">
             </path>
         </symbol>
 

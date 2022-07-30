@@ -599,6 +599,8 @@ p {
   padding: 15px 16px;
   margin-right: 12px;
   outline: none;
+
+  color: var(--white-text-color);
   transition: border-color var(--anim-hover);
 }
 
@@ -855,7 +857,6 @@ p {
 .form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   align-items: center;
 }
 
@@ -873,6 +874,11 @@ p {
 .form-field {
   display: block;
   position: relative;
+  margin-bottom: 10px;
+}
+
+.last-form-field {
+  margin-bottom: 20px;
 }
 
 .form-input {
@@ -927,7 +933,6 @@ p {
 
   color: black;
   padding: 12px 16px;
-  margin-bottom: 20px;
 
   outline: none;
 

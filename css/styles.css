@@ -221,7 +221,7 @@ p {
 |============================
 */
 
-.hero-section {
+.hero {
   background-color: var(--secondary-bgc-color);
   max-width: 1600px;
   margin-left: auto;
@@ -232,12 +232,12 @@ p {
   background-position: center, center;
 }
 
-.hero-container {
+.hero__container {
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -250,7 +250,7 @@ p {
   margin-bottom: 30px;
 }
 
-.hero-btn {
+.hero__btn {
   display: block;
 
   font-weight: 700;
@@ -273,8 +273,8 @@ p {
   transition: background-color var(--anim-hover);
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero__btn:hover,
+.hero__btn:focus {
   background-color: #188ce8;
 }
 
